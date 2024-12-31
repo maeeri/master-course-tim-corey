@@ -1,0 +1,3 @@
+﻿using GuestBook;
+
+Methods.ManageGuests();

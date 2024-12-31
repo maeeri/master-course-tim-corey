@@ -1,0 +1,38 @@
+﻿<h3>Forms</h3>
+
+<EditForm Model="@person" OnValidSubmit="OnPersonValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText @bind-Value="person.FirstName" />
+    <ValidationMessage For="@(() => person.FirstName)" />
+
+    <InputText @bind-Value="person.LastName" />
+    <ValidationMessage For="@(() => person.LastName)" />
+
+    <button type="submit">Submit</button>
+</EditForm>
+
+<EditForm Model="@address" OnValidSubmit="OnAddressValidSubmit">
+    <DataAnnotationsValidator />
+
+</EditForm>
+
+@code {
+    Person person = new Person();
+    List<Person> people = new List<Person>();
+    Address address = new Address();
+    List<Address> addresses = new List<Address>();
+
+    void OnPersonValidSubmit()
+    {
+        people.Add(person);
+        person = new Person();
+    }
+
+    void OnAddressValidSubmit()
+    {
+        addresses.Add(address);
+        address = new Address();
+    }
+}

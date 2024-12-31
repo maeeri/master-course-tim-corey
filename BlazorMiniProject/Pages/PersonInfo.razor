@@ -1,0 +1,21 @@
+﻿@page "/peopleinfo"
+@page "/people"
+<h3>Person form</h3>
+<EditForm Model="@model" OnSubmit="ValidSubmit">
+<DataAnnotationsValidator />
+    <label for="@model.FirstName">First Name:</label>
+    <InputText @bind-Value="@model.FirstName" class="form-control" />
+    <label for="@model.LastName">Last Name:</label>
+    <InputText @bind-Value="@model.LastName" class="form-control" />
+    <button class="btn btn-primary" type="submit">Save</button>
+</EditForm>
+<div class="card">
+    <ul class="list">
+        @foreach (Person person in people)
+        {
+            <li>@person.FirstName @person.LastName</li>
+        }
+    </ul>
+</div>
+
+

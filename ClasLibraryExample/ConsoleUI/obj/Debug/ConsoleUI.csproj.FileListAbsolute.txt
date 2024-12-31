@@ -1,0 +1,10 @@
+C:\Users\eerikmar\source\repos\MasterCourse\ClasLibraryExample\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\eerikmar\source\repos\MasterCourse\ClasLibraryExample\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\eerikmar\source\repos\MasterCourse\ClasLibraryExample\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\eerikmar\source\repos\MasterCourse\ClasLibraryExample\ConsoleUI\bin\Debug\DemoLibrary.dll
+C:\Users\eerikmar\source\repos\MasterCourse\ClasLibraryExample\ConsoleUI\bin\Debug\DemoLibrary.pdb
+C:\Users\eerikmar\source\repos\MasterCourse\ClasLibraryExample\ConsoleUI\obj\Debug\ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\eerikmar\source\repos\MasterCourse\ClasLibraryExample\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\eerikmar\source\repos\MasterCourse\ClasLibraryExample\ConsoleUI\obj\Debug\ConsoleUI.csproj.Up2Date
+C:\Users\eerikmar\source\repos\MasterCourse\ClasLibraryExample\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\eerikmar\source\repos\MasterCourse\ClasLibraryExample\ConsoleUI\obj\Debug\ConsoleUI.pdb

@@ -1,0 +1,4 @@
+﻿using ConsoleAppForTesting;
+
+Test.WriteHello();
+

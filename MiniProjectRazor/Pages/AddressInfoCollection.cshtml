@@ -1,0 +1,10 @@
+﻿@page
+@model MiniProjectRazor.Pages.AddressInfoCollectionModel
+@{
+}
+<form method="post">
+    <input type="text" asp-for="address.streetAddress" placeholder="street address" />
+    <input type="text" asp-for="address.postalCode" placeholder="postal code" />
+    <input type="text" asp-for="address.city" placeholder="city" />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

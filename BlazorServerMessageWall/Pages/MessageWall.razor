@@ -1,0 +1,19 @@
+﻿@page "/messages"
+
+<h3>Message Wall</h3>
+
+<EditForm Model="@model" OnValidSubmit="@AddMessage">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <InputText @bind-Value="@model.Message" class="form-control" />
+    <button class="btn btn-primary" type="submit">Add Message</button>
+</EditForm>
+
+<p>Messages:</p>
+<ul class="list-group">
+    @foreach (var message in messages)
+    {
+        <li class="list-group-item">@message</li>
+    }
+</ul>
+
